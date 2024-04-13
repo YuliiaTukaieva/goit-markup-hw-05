@@ -403,10 +403,37 @@
     </button>
     <p class="modal-title">Leave your contacts and we will call you back</p>
     <form class="modal-form">
-        <label for="">Name</label>
-        <input type="text" class="modal-input">
-        <input type="text" class="modal-input">
-        <input type="text" class="modal-input">
+        <div class="modal-field">
+        <label for="user-name" class="modal-label">Name</label>
+        <div class="modal-input-wrap">
+        <input type="text" class="modal-input" placeholder="Enter name" name="user-name" id="user-name" />
+        <svg class="modal-field-icon" width="12" height="12">
+            <use href="./images/icons.svg#icon-Vector"></use>
+        </svg>
+    </div>
+    </div>
+    <div class="modal-field">
+        <label for="user-phone" class="modal-label">Phone</label>
+        <div class="modal-input-wrap">
+        <input type="text" class="modal-input" placeholder="Enter phone" name="user-phone" id="user-phone" />
+        <svg class="modal-field-icon" width="13" height="13">
+            <use href="./images/icons.svg#icon-Vectortel"></use>
+        </svg>
+    </div>
+    </div>
+    <div class="modal-field">
+        <label for="user-email" class="modal-label">Email</label>
+        <div class="modal-input-wrap">
+        <input type="text" class="modal-input" placeholder="Enter email" name="user-email" id="user-email" />
+        <svg class="modal-field-icon" width="16" height="12">
+            <use href="./images/icons.svg#icon-email-black"></use>
+        </svg>
+    </div>
+    </div>
+    <div class="modal-field">
+        <label for="text-input" class="modal-label">Comment</label>
+        <textarea name="text-input" id="text-input" placeholder="Text input" class="modal-text"></textarea>
+    </div>
     </form>
         </div>
 
