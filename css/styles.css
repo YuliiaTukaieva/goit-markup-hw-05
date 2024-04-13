@@ -456,6 +456,11 @@ font-family: "Roboto", sans-serif;
     margin-right: 120px;
 
 }
+.footer-form {
+    display: flex;
+    gap: 24px;
+    align-items: flex-end
+}
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -576,11 +581,7 @@ justify-content: center;
 .footer-icon-icon {
     fill: #fff;
 }
-.footer-email-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end
-}
+
 
 
 .addr{
