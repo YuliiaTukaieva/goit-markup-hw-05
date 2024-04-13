@@ -618,6 +618,7 @@ border: none;
     transform: translate(-50%, -50%);
     padding: 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 .modal-btn {
     position: absolute;
@@ -637,10 +638,12 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 padding: 0;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn:hover
-.modal-btn:focus {
+.modal-btn :hover
+.modal-btn :focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
+
 
 }
 .modal-btns-icon {
