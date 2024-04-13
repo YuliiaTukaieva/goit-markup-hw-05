@@ -711,7 +711,7 @@ letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
 }
 .modal-field {
-    margin-bottom: 16px
+    margin-bottom: 8px;
 }
 .modal-field-under {
     margin-bottom: 24px;
