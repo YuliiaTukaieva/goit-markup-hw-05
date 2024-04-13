@@ -523,6 +523,64 @@ color: #fff;
 margin-bottom: 16px;
 margin-top: 0;
 }
+.footer-subscribe {
+    min-width: 453px;
+    height: 80px;
+    margin-left: 80px;
+}
+.footer-name-email {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    margin-top: 0; 
+}
+.footer-input {
+    border: 1px solid #fff;
+border-radius: 4px;
+width: 264px;
+height: 40px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+margin-top: 16px;
+margin-right: 24px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
+padding: 8px 16px;
+}
+.footer-btn-icon {
+    border-radius: 4px;
+width: 165px;
+height: 40px;
+background: #4d5ae5;
+display: inline-flex;
+align-items: center;
+gap: 16px;
+justify-content: center;
+}
+.subscribe-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+}
+.footer-icon-icon {
+    fill: #fff;
+}
+.footer-email-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end
+}
 
 
 .addr{
@@ -534,9 +592,17 @@ margin-top: 0;
     background: rgba(46, 47, 66, 0.4);
     position: fixed;
     top: 0;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
     /*display: flex;
     align-items: center;
     justify-content: center;*/
+}
+.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
 }
 .modal {
     width: 408px;
