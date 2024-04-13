@@ -558,25 +558,24 @@ line-height: 2;
 letter-spacing: 0.04em;
 color: #fff;
 padding: 8px 16px;
+background-color: transparent;
 }
 .footer-btn-icon {
     border-radius: 4px;
-width: 165px;
 height: 40px;
 background: #4d5ae5;
 display: inline-flex;
 align-items: center;
 gap: 16px;
 justify-content: center;
-}
-.subscribe-button {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: center;
-    color: #fff;
+min-width: 165px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+color: #ffffff;
+border: none;
 }
 .footer-icon-icon {
     fill: #fff;
