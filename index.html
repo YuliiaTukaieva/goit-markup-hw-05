@@ -396,11 +396,12 @@
     </footer>
     <div class="backdrop">
         <div class="modal">
-            <button type="button" class="modal-btn"><svg width="8" height="8"><use href="./images/icons.svg#icon-Vectorx">
- 
-            </use>
-        </svg>
-    </button>
+            <button type="button" class="modal-btn">
+                <svg width="8" height="8">
+                    <use href="./images/icons.svg#icon-Vectorx">
+                    </use>
+                </svg>
+            </button>
     <p class="modal-title">Leave your contacts and we will call you back</p>
     <form class="modal-form">
         <div class="modal-field">
@@ -432,8 +433,15 @@
     </div>
     <div class="modal-field">
         <label for="text-input" class="modal-label">Comment</label>
-        <textarea name="text-input" id="text-input" placeholder="Text input" class="modal-text"></textarea>
+        <textarea name="text-input" class="modal-text" id="text-input" placeholder="Text input"></textarea>
     </div>
+    <div class="modal-field-under">
+        <input type="checkbox" class="checkbox-input" id="checkbox" name="checkbox" />
+        <label for="checkbox" class="modal-checkbox">I accept the terms and conditions of the </label>
+        <a class="modal-under-link" href="">Privacy Policy</a>
+        
+    </div>
+    <button type="submit" class="button-send" disabled><span class="button-send-btn">Send</span></button>
     </form>
         </div>
 
